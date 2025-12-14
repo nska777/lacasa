@@ -95,7 +95,7 @@ promo_title:
   "%10 İndirimle\nÖzel Perde Dikimi",
 
 promo_text:
-  "Tasarımcı ziyareti, kumaş seçimi ve 3D görselleştirme ücretsizdir. Perde dikimi siparişi verdiğinizde tüm tekstil ürünlerinde %20 indirim sunuyoruz.",
+  "Tasarımcı ziyareti, kumaş seçimi ve 3D görselleştirme ücretsizdir. Perde dikimi siparişi verdiğinizde tüm tekstil ürünlerinde %10 indirim sunuyoruz.",
 
 promo_btn: "Detaylı bilgi",
 subscribe_title: "Dünyamıza\nHoş Geldiniz",

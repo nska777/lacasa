@@ -95,7 +95,7 @@ promo_title:
   "Custom Curtain Tailoring\nwith 10% Discount",
 
 promo_text:
-  "Order a designer visit, fabric selection, and 3D visualization for free. When placing an order for tailoring, we give a 20% discount on all textiles.",
+  "Order a designer visit, fabric selection, and 3D visualization for free. When placing an order for tailoring, we give a 10% discount on all textiles.",
 
 promo_btn: "Learn more",
 subscribe_title: "Welcome to Our\nWorld",

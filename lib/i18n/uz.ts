@@ -95,7 +95,7 @@ promo_title:
   "Individual parda tikish\n10% chegirma bilan",
 
 promo_text:
-  "Dizayner chiqishi, mato tanlash va 3D-vizualizatsiya bepul. Tikuv buyurtmasi berilganda — barcha tekstil mahsulotlariga 20% chegirma taqdim etiladi.",
+  "Dizayner chiqishi, mato tanlash va 3D-vizualizatsiya bepul. Tikuv buyurtmasi berilganda — barcha tekstil mahsulotlariga 10% chegirma taqdim etiladi.",
 
 promo_btn: "Batafsil",
 subscribe_title: "Bizning dunyomizga\nxush kelibsiz",
