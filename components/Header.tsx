@@ -67,11 +67,7 @@ export default function Header() {
 
           <button
             onClick={scrollTop}
-            className="
-              absolute left-1/2 -translate-x-1/2
-              text-lg sm:text-2xl font-semibold tracking-wide
-              hover:opacity-80 transition cursor-pointer
-            "
+            className="absolute left-1/2 -translate-x-1/2 text-lg sm:text-2xl font-semibold tracking-wide hover:opacity-80 transition cursor-pointer"
           >
             Textile LaCasa
           </button>
@@ -100,13 +96,7 @@ export default function Header() {
                 href="https://t.me/Dinosh0109"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="
-                  hidden md:flex min-w-[180px] h-[38px]
-                  items-center justify-center rounded-xl
-                  bg-[#c8b59c]/80 hover:bg-[#c8b59c]
-                  text-white font-semibold text-sm shadow transition whitespace-nowrap
-                  cursor-pointer
-                "
+                className="hidden md:flex min-w-[180px] h-[38px] items-center justify-center rounded-xl bg-[#c8b59c]/80 hover:bg-[#c8b59c] text-white font-semibold text-sm shadow transition whitespace-nowrap"
               >
                 {t(currentLang, "order")}
               </a>
@@ -115,7 +105,7 @@ export default function Header() {
             {/* Burger */}
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="md:hidden flex flex-col gap-[5px] cursor-pointer"
+              className="md:hidden flex flex-col gap-[5px]"
               aria-label="Open menu"
             >
               <span className="w-5 h-[2px] bg-white" />
@@ -173,11 +163,7 @@ export default function Header() {
             {scrolled && (
               <a
                 href="https://t.me/Dinosh0109"
-                className="
-                  min-w-[180px] h-[38px]
-                  flex items-center justify-center rounded-xl bg-[#c8b59c]
-                  font-semibold text-sm shadow cursor-pointer
-                "
+                className="min-w-[180px] h-[38px] flex items-center justify-center rounded-xl bg-[#c8b59c] font-semibold text-sm shadow"
               >
                 {t(currentLang, "order")}
               </a>
@@ -189,7 +175,7 @@ export default function Header() {
       {/* MOBILE MENU */}
       {menuOpen && (
         <div className="md:hidden fixed top-[64px] left-0 w-full bg-[#EDE4DD] shadow-xl z-40">
-          <nav className="flex flex-col items-center gap-6 py-8 text-base">
+          <nav className="flex flex-col items-center gap-6 py-8 text-base text-gray-900">
             {[
               ["/", "home"],
               ["/catalog", "catalog"],
@@ -201,19 +187,19 @@ export default function Header() {
                 key={href}
                 href={`${href}?lang=${currentLang}`}
                 onClick={() => setMenuOpen(false)}
-                className="font-medium"
+                className="font-medium text-gray-900 hover:text-gray-600 transition"
               >
                 {t(currentLang, key)}
               </Link>
             ))}
 
-            <div className="flex gap-4 mt-4 text-sm">
+            <div className="flex gap-4 mt-4 text-sm text-gray-900">
               {LANGS.map((l) => (
                 <button
                   key={l}
                   onClick={() => switchLang(l)}
                   className={`uppercase cursor-pointer ${
-                    currentLang === l ? "font-bold underline" : ""
+                    currentLang === l ? "font-bold underline" : "opacity-70"
                   }`}
                 >
                   {l}
@@ -223,7 +209,7 @@ export default function Header() {
 
             <a
               href="https://t.me/Dinosh0109"
-              className="mt-6 px-8 py-3 rounded-xl bg-[#c8b59c] text-white font-semibold text-sm cursor-pointer"
+              className="mt-6 px-8 py-3 rounded-xl bg-[#c8b59c] text-white font-semibold text-sm"
             >
               {t(currentLang, "order")}
             </a>
