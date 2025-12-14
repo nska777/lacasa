@@ -5,7 +5,7 @@ import { t } from "@/lib/i18n";
 type Lang = "ru" | "en" | "uz" | "tr";
 
 type Props = {
-  lang: string; // ⚠️ принимаем ЛЮБУЮ строку
+  lang: string; //
 };
 
 // 🔒 защита языка

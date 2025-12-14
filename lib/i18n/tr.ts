@@ -56,7 +56,7 @@ cornices_text:
   "Mekânın mimarisini, iç tasarım stilini ve aydınlatma gereksinimlerini dikkate alarak özel üretim korniş ve jaluziler tasarlıyoruz. Kornişler sessiz perde hareketi sağlar ve dekorun zarif bir parçası olur. Jaluziler ise dokusuna, yoğunluğuna ve tasarımına göre seçilir — klasik modellerden, ışığa karşı güvenilir koruma sağlayan modern çözümlere kadar.",
 
 cornices_btn_collection: "Kumaş koleksiyonunu incele",
-entertainment_title: "Eğlence ve Dinlenme İçin Premium Çözümler",
+entertainment_title: "İç Mekânlar için Premium Çözümler",
 
 entertainment_text:
   "Konut ve ticari alanlarda konfor ve atmosfer yaratan şık ve fonksiyonel iç mekân çözümlerini keşfedin.",
@@ -66,18 +66,18 @@ clients_text:
   "Özel evler, rezidanslar, daireler ve modern ticari alanlar için premium tekstil üretiyoruz. Müşterilerimiz Textile LaCasa’yı stil, titizlik ve yüksek hizmet kalitesi için tercih ediyor.",
 
 review_1_text:
-  "Oturma odası ve yatak odası için tekstil siparişi verdik. LaCasa ekibi harika bir kumaş seçimi sundu — iç mekân tamamen değişti.",
-review_1_author: "Elina Samoilova",
+  "Profesyonel yaklaşım ve ilgili hizmet için içten teşekkür ederim. Çalışma kaliteli, zamanında ve tüm beklentilerimi karşılayacak şekilde tamamlandı. Sonuçtan çok memnunum ve gönül rahatlığıyla tavsiye ederim.",
+review_1_author: "Lobar K.",
 review_1_role: "Özel Müşteri",
 
 review_2_text:
-  "Tasarımcıların yaklaşımını çok beğendik. Tüm malzemeler premium, montaj özenliydi. Sonuç etkileyici.",
-review_2_author: "Oleg Mironov",
+  "Yapılan çalışma için çok teşekkür ederim 💗 Her şey çok güzel ve özenli oldu. Oda tamamen değişti — aydınlık, sıcak ve huzurlu bir atmosfere kavuştu. Sonuca her baktığımda mutluluk ve memnuniyet hissediyorum 🌸",
+review_2_author: "Dildora M.",
 review_2_role: "Özel Ev Sahibi",
 
 review_3_text:
-  "Stüdyo iç mekânını yeniledik. LaCasa, kalın perdeler ve jaluziler seçmemize yardımcı oldu. Sonuç çok şık.",
-review_3_author: "Kamilla Baghramyan",
+  "Harika çalışma için çok teşekkür ederim 🙌 Her zaman yalnızca size güveniyorum — kalite, yaklaşım ve sonuç her zaman mükemmel.",
+review_3_author: "Lazis S.",
 review_3_role: "İç Mimar",
 
 review_4_text:
@@ -92,7 +92,7 @@ review_5_role: "Özel Müşteri",
 promo_label: "Teklif",
 
 promo_title:
-  "%20 İndirimle\nÖzel Perde Dikimi",
+  "%10 İndirimle\nÖzel Perde Dikimi",
 
 promo_text:
   "Tasarımcı ziyareti, kumaş seçimi ve 3D görselleştirme ücretsizdir. Perde dikimi siparişi verdiğinizde tüm tekstil ürünlerinde %20 indirim sunuyoruz.",
@@ -226,7 +226,7 @@ title: "Bizimle iletişime geçin",
   hotel_catalog_btn: "Tüm otel koleksiyonunu görüntüle",
    flooring_title: "Textile LaCasa Zemin Kaplamaları",
   flooring_subtitle:
-    "Konut ve ticari mekanlar için halı, laminat ve modern zemin kaplama koleksiyonları.",
+    "Konut ve ticari mekanlar için halı, modern zemin kaplama koleksiyonları.",
 
   flooring_collection_title: "Zemin Kaplama Koleksiyonu",
   flooring_catalog_btn: "Tüm zemin kaplama kataloğunu görüntüle",
@@ -237,9 +237,9 @@ title: "Bizimle iletişime geçin",
 
   cornices_collection_title: "Korniş ve Jaluzi Koleksiyonu",
   cornices_catalog_btn: "Korniş ve jaluzi kataloğunu görüntüle",
-  textile_floor_title: "Textile LaCasa Tekstil Zemin Kaplamaları",
+  textile_floor_title: "LaCasa Textile – Tekstil Zemin Kaplamaları",
   textile_floor_subtitle:
-    "Oteller, ofisler ve ticari alanlar için halı ve tekstil zemin kaplama koleksiyonları. Konfor, dayanıklılık ve estetiği bir araya getiren çözümler.",
-  textile_floor_collection_title: "Tekstil Zemin Kaplama Koleksiyonu",
+    "Otel, ofis ve ticari alanlar için halı ve modüler zemin kaplamaları koleksiyonları. Konforu, dayanıklılığı ve estetik görünümü bir araya getiren pratik çözümler.",
+  textile_floor_collection_title: "Modüler Zemin Kaplamaları Koleksiyonu",
   textile_floor_catalog_btn: "Tüm zemin kaplama kataloğunu görüntüle",
 };

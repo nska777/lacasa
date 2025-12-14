@@ -110,7 +110,7 @@ export default function ContactsSection() {
               blank: true,
             },
             {
-              href: "mailto:lacasatextile@gmail.com",
+              href: "mailto:Textilelacasa@gmail.com",
               label: "Email",
               icon: <IconMail />,
             },
@@ -147,7 +147,7 @@ export default function ContactsSection() {
             <IconPhone /> +998 97 709 77 89
           </p>
           <p className="flex justify-center gap-2">
-            <IconMail /> lacasatextile@gmail.com
+            <IconMail /> Textilelacasa@gmail.com
           </p>
           <p className="flex justify-center gap-2">
             <IconClock /> Пн–Вс, 10:00 — 19:00

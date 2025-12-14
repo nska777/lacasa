@@ -32,7 +32,7 @@ export default function FlooringPage() {
           transition={{ duration: 0.7 }}
           className="text-5xl font-serif text-white font-semibold drop-shadow-2xl"
         >
-          {t(lang, "catalog_floor_title:")}
+          {t(lang, "flooring_collection_title")}
         </motion.h1>
 
         <motion.p

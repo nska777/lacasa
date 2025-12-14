@@ -36,15 +36,27 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="hover:text-white">
+              <a
+                href="https://www.instagram.com/lacasa.textile?igsh=am1xMDBuYmp0d3Nv&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
                 Instagram
               </a>
             </li>
+
             <li>
-              <a href="#" className="hover:text-white">
+              <a
+                href="https://t.me/Dinosh0109"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white"
+              >
                 Telegram
               </a>
             </li>
+
             <li>
               <a href="#" className="hover:text-white">
                 Facebook
@@ -61,15 +73,19 @@ export default function Footer() {
 
           <p className="text-sm mb-2">{t(lang, "footer_contacts")}:</p>
 
-          <p className="text-sm">
-            <a href="tel:+998977097789" className="hover:text-white">
+          <div className="text-sm space-y-1">
+            <a href="tel:+998977097789" className="block hover:text-white">
               +998 97 709 77 89
             </a>
-          </p>
+
+            <a href="tel:+998901297789" className="block hover:text-white">
+              +998 90 129 77 89
+            </a>
+          </div>
 
           <p className="mt-2 text-sm">
             <a href="mailto:info@lacasa.uz" className="hover:text-white">
-              info@lacasa.uz
+              Textilelacasa@gmail.com
             </a>
           </p>
 

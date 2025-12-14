@@ -56,7 +56,7 @@ cornices_text:
   "We create custom-made cornices and blinds, taking into account the architecture of the space, interior style, and lighting requirements. Cornices are manufactured to individual sizes, ensure silent curtain movement, and become an elegant part of the décor. Blinds are selected by texture, density, and design — from classic models to modern solutions that reliably protect from light and enhance the atmosphere of the space.",
 
 cornices_btn_collection: "View fabric collection",
-entertainment_title: "Premium Solutions for Leisure and Entertainment",
+entertainment_title: "Premium Solutions for Interior Design",
 
 entertainment_text:
   "Discover stylish and functional interior solutions that create comfort and atmosphere in residential and commercial spaces.",
@@ -66,18 +66,18 @@ clients_text:
   "We create textiles for premium interiors: private houses, residences, apartments, and modern commercial spaces. Clients choose Textile LaCasa for style, precision, and a high level of service.",
 
 review_1_text:
-  "We ordered textiles for the living room and bedroom. The LaCasa team offered an amazing fabric selection — the interior was completely transformed.",
-review_1_author: "Elina Samoilova",
+  "I would like to express my sincere gratitude for the professional approach and attentive service. The work was completed with high quality, on time, and fully met my expectations. I am very satisfied with the result and highly recommend it.",
+review_1_author: "Lobar K.",
 review_1_role: "Private Client",
 
 review_2_text:
-  "We really liked the designers’ approach. All materials are premium, installation was neat and unhurried. The result is impressive.",
-review_2_author: "Oleg Mironov",
+  "Thank you very much for the wonderful work 💗 Everything turned out beautifully and neatly. The room has been transformed — it feels bright, cozy, and full of warmth. Every time I look at it, I feel happy and truly satisfied with the result 🌸",
+review_2_author: "Dildora M.",
 review_2_role: "Private Home Owner",
 
 review_3_text:
-  "We updated a studio interior. LaCasa helped us select dense curtains, blinds, and decorative textiles. It turned out stylish and cozy.",
-review_3_author: "Kamilla Baghramyan",
+  "Thank you very much for the excellent work 🙌 I always trust only you — the quality, approach, and final result are consistently outstanding.",
+review_3_author: "Lazis S.",
 review_3_role: "Interior Designer",
 
 review_4_text:
@@ -92,7 +92,7 @@ review_5_role: "Private Client",
 promo_label: "Offer",
 
 promo_title:
-  "Custom Curtain Tailoring\nwith 20% Discount",
+  "Custom Curtain Tailoring\nwith 10% Discount",
 
 promo_text:
   "Order a designer visit, fabric selection, and 3D visualization for free. When placing an order for tailoring, we give a 20% discount on all textiles.",
@@ -224,7 +224,7 @@ title: "Contact us",
   hotel_catalog_btn: "View the full hotel collection",
   flooring_title: "Textile LaCasa Flooring Collection",
   flooring_subtitle:
-    "Collections of carpet, laminate, and modern flooring solutions for residential and commercial interiors.",
+    "Collections of carpet, modern flooring solutions for residential and commercial interiors.",
 
   flooring_collection_title: "Flooring Collection",
   flooring_catalog_btn: "View the full flooring catalog",
@@ -235,12 +235,12 @@ title: "Contact us",
 
   cornices_collection_title: "Curtain Rods & Blinds Collection",
   cornices_catalog_btn: "View the full catalog of curtain rods and blinds",
-  textile_floor_title: "Textile Floor Coverings by Textile LaCasa",
+  textile_floor_title: "Textile Floor Coverings by LaCasa Textile",
 
   textile_floor_subtitle:
-    "Carpet and textile floor covering collections for hotels, offices, and commercial interiors. Practical solutions combining comfort, durability, and refined design.",
+    "Collections of carpet and modular flooring for hotels, offices, and commercial spaces. Practical solutions that combine comfort, durability, and an aesthetic appearance.",
 
-  textile_floor_collection_title: "Textile Flooring Collection",
+  textile_floor_collection_title: "View Modular Flooring Collection",
 
   textile_floor_catalog_btn: "View Full Flooring Collection",
 };

@@ -56,7 +56,7 @@ cornices_text:
   "Biz xonaning arxitekturasi, interyer uslubi va yoritish talablarini inobatga olgan holda karniz va jalyuzlarni buyurtma asosida tayyorlaymiz. Karnizlar individual o‘lchamlarda ishlab chiqariladi, pardalarning jim siljishini ta’minlaydi va dekorning nafis qismiga aylanadi. Jalyuzlar esa faktura, zichlik va dizayn bo‘yicha tanlanadi — klassik modellaridan tortib, yorug‘likdan ishonchli himoya qiluvchi zamonaviy yechimlargacha.",
 
 cornices_btn_collection: "Mato kolleksiyasini ko‘rish",
-entertainment_title: "Dam olish va hordiq uchun premium yechimlar",
+entertainment_title: "Premium interyer yechimlari",
 
 entertainment_text:
   "Yashash va tijorat makonlarida qulaylik va muhit yaratadigan zamonaviy va funksional interyer yechimlarini baholang.",
@@ -66,13 +66,13 @@ clients_text:
   "Biz premium interyerlar uchun tekstil yaratamiz: xususiy uylar, rezidensiyalar, kvartiralar va zamonaviy tijorat makonlari. Mijozlar Textile LaCasa’ni uslub, aniqlik va yuqori xizmat darajasi uchun tanlaydi.",
 
 review_1_text:
-  "Mehmonxona va yotoqxona uchun tekstil buyurtma qildik. LaCasa jamoasi ajoyib mato tanlovini taklif qildi — interyer butunlay o‘zgardi.",
-review_1_author: "Elina Samoylova",
+  "Professional yondashuv va e’tiborli xizmat uchun samimiy minnatdorchilik bildiraman. Ish sifatli, o‘z vaqtida va barcha istaklarim inobatga olingan holda bajarildi. Natijadan juda mamnunman va ishonch bilan tavsiya qilaman.",
+review_1_author: "Lobar K.",
 review_1_role: "Xususiy mijoz",
 
 review_2_text:
-  "Dizaynerlarning yondashuvi juda yoqdi. Barcha materiallar premium, montaj esa puxta va shoshilmasdan bajarildi. Natija juda ta’sirli.",
-review_2_author: "Oleg Mironov",
+  "Bajarilgan ish uchun katta rahmat 💗 Hammasi juda chiroyli va ozoda chiqdi. Xona butunlay o‘zgardi — yorug‘, shinam va iliq muhitga ega bo‘ldi. Natijani ko‘rganimda har safar quvonch va mamnuniyat his qilaman 🌸",
+review_2_author: "Dildora M.",
 review_2_role: "Xususiy uy egasi",
 
 review_3_text:
@@ -92,7 +92,7 @@ review_5_role: "Xususiy mijoz",
 promo_label: "Taklif",
 
 promo_title:
-  "Individual parda tikish\n20% chegirma bilan",
+  "Individual parda tikish\n10% chegirma bilan",
 
 promo_text:
   "Dizayner chiqishi, mato tanlash va 3D-vizualizatsiya bepul. Tikuv buyurtmasi berilganda — barcha tekstil mahsulotlariga 20% chegirma taqdim etiladi.",
@@ -224,7 +224,7 @@ catalog_curtains_title: "Textile LaCasa Pardalar Kolleksiyasi",
   hotel_catalog_btn: "Mehmonxona katalogini ko‘rish",
   flooring_title: "Textile LaCasa Pol Qoplamalari",
   flooring_subtitle:
-    "Uy va tijorat interyerlari uchun kovrolin, laminat va zamonaviy pol qoplamalari kolleksiyalari.",
+    "Uy va tijorat interyerlari uchun kovrolin, zamonaviy pol qoplamalari kolleksiyalari.",
 
   flooring_collection_title: "Pol qoplamalari kolleksiyasi",
   flooring_catalog_btn: "Pol qoplamalari katalogini ko‘rish",
@@ -235,12 +235,12 @@ catalog_curtains_title: "Textile LaCasa Pardalar Kolleksiyasi",
 
   cornices_collection_title: "Karniz va jalyuzi kolleksiyasi",
   cornices_catalog_btn: "Karniz va jalyuzilar katalogini ko‘rish",
-  textile_floor_title: "Textile LaCasa matoli pol qoplamalari",
+  textile_floor_title: "LaCasa Textile — to‘qimachilik pol qoplamalari",
 
   textile_floor_subtitle:
-    "Mehmonxonalar, ofislar va tijorat interyerlari uchun kovrolin va matoli pol qoplamalari kolleksiyasi. Qulaylik, mustahkamlik va estetik dizayn uyg‘unligi.",
+    "Mehmonxonalar, ofislar va tijorat makonlari uchun kovrolin va modulli pol qoplamalari kolleksiyalari. Qulaylik, chidamlilik va estetik ko‘rinishni uyg‘unlashtirgan amaliy yechimlar.",
 
-  textile_floor_collection_title: "Matoli pol qoplamalari kolleksiyasi",
+  textile_floor_collection_title: "Modulli pol qoplamalari kolleksiyasi",
 
   textile_floor_catalog_btn: "Barcha qoplamalar katalogini ko‘rish",
 
