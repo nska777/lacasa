@@ -80,7 +80,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* ===== TABLET + DESKTOP ===== */}
+        {}
         <div className="hidden sm:flex relative w-full justify-center px-6 mt-10 overflow-x-hidden">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10 max-w-7xl w-full">
             {cards.map((card) => (
@@ -116,7 +116,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ===== остальной контент ===== */}
       <Section />
       <FullpageSlider />
       <GastroSection />
