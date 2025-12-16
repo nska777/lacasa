@@ -11,12 +11,21 @@ export default function Section() {
   const lang = getLang(searchParams.get("lang"));
 
   return (
-    <section className="w-full bg-gradient-to-b from-[#FAF9F7] to-[#E6EBE2] py-16 md:py-24 overflow-hidden">
+    <section
+      className="
+        w-full
+        bg-gradient-to-b from-[#FAF9F7] to-[#E6EBE2]
+        pt-10 pb-14
+        sm:pt-14 sm:pb-20
+        md:pt-24 md:pb-24
+        overflow-hidden
+      "
+    >
       <div
         className="
           max-w-7xl mx-auto
           grid grid-cols-1 md:grid-cols-2
-          gap-12 md:gap-20
+          gap-10 md:gap-20
           px-4 sm:px-6
         "
       >
@@ -28,7 +37,10 @@ export default function Section() {
           viewport={{ once: true }}
           className="
             relative w-full
-            h-[260px] sm:h-[360px] md:h-[550px]
+            min-h-[60vh]        /* 🔥 МОБИЛКА — ЗАПОЛНЯЕТ ЭКРАН */
+            h-[60vh]
+            sm:h-[420px]
+            md:h-[550px]        /* 💻 ДЕСКТОП — как было */
             order-1 md:order-2
           "
         >
@@ -37,7 +49,7 @@ export default function Section() {
             alt="Luxury curtains"
             fill
             priority
-            className="object-cover rounded-xl shadow"
+            className="object-cover rounded-2xl shadow-xl"
           />
         </motion.div>
 
@@ -55,7 +67,7 @@ export default function Section() {
         >
           <h2
             className="
-              text-2xl sm:text-3xl md:text-3xl
+              text-2xl sm:text-3xl
               font-semibold text-gray-900
               leading-snug mb-4
             "
@@ -100,7 +112,6 @@ export default function Section() {
                 hover:bg-black hover:text-white
                 transition
                 text-center
-                box-border
               "
             >
               {t(lang, "section_btn_fabrics")}
@@ -119,7 +130,6 @@ export default function Section() {
                 hover:bg-black hover:text-white
                 transition
                 text-center
-                box-border
               "
             >
               {t(lang, "section_btn_projects")}

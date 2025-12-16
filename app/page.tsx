@@ -59,7 +59,7 @@ export default function HomePage() {
                 href={`${card.link}?lang=${lang}`}
                 className="
                   snap-center shrink-0
-                  w-[85%] h-[300px]
+                  w-[90%] h-[600px]
                   relative rounded-2xl overflow-hidden
                   bg-black/30 backdrop-blur-md
                   shadow-[0_0_30px_-10px_rgba(0,0,0,0.6)]
