@@ -35,13 +35,10 @@ export default function PortfolioPage() {
 
       {/* ===== HERO ===== */}
       <section className="relative w-full pt-48 pb-40 text-center overflow-hidden">
-        {/* Background */}
         <div
           className="absolute inset-0 -z-10 bg-cover bg-center blur-[2px] brightness-[0.85]"
           style={{ backgroundImage: "url('/bg/brown-top.jpg')" }}
         />
-
-        {/* Gradient Overlay */}
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/60 via-black/20 to-transparent" />
 
         <motion.h1
@@ -83,7 +80,6 @@ export default function PortfolioPage() {
               className="object-cover w-full h-full group-hover:scale-105 transition duration-300"
             />
 
-            {/* Play Overlay */}
             <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
               <span className="text-white text-4xl">▶</span>
             </div>
@@ -98,7 +94,7 @@ export default function PortfolioPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-6"
+            className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
             onClick={() => setModal(null)}
           >
             <motion.div
@@ -106,11 +102,29 @@ export default function PortfolioPage() {
               animate={{ scale: 1 }}
               exit={{ scale: 0.85 }}
               className="relative max-w-5xl w-full"
+              onClick={(e) => e.stopPropagation()}
             >
+              {/* CLOSE BUTTON */}
+              <button
+                onClick={() => setModal(null)}
+                className="
+                  absolute -top-4 -right-4 z-50
+                  w-10 h-10 rounded-full
+                  bg-black/70 text-white
+                  flex items-center justify-center
+                  text-2xl font-light
+                  hover:bg-black transition
+                "
+                aria-label="Close video"
+              >
+                ✕
+              </button>
+
               <video
                 src={modal.src}
                 controls
                 autoPlay
+                playsInline
                 className="w-full rounded-2xl shadow-2xl"
               />
             </motion.div>

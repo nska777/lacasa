@@ -8,7 +8,7 @@ type Props = {
   lang: string; //
 };
 
-// 🔒 защита языка
+// защита языка
 function normalizeLang(lang?: string): Lang {
   if (lang === "en" || lang === "uz" || lang === "tr") return lang;
   return "ru";

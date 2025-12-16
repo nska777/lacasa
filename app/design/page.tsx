@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { t, getLang } from "@/lib/i18n";
 
-/* ================= TYPES ================= */
+/*  TYPES  */
 
 interface StoryBlockProps {
   number: string;
@@ -20,7 +20,7 @@ interface StoryBlockProps {
   callText?: string;
 }
 
-/* ================= PAGE ================= */
+/*  PAGE  */
 
 export default function DesignProjectPage() {
   const { scrollY } = useViewportScroll();
@@ -33,7 +33,7 @@ export default function DesignProjectPage() {
     <>
       <Header />
 
-      {/* ================= HERO ================= */}
+      {/* HERO  */}
       <section className="relative w-full pt-28 sm:pt-40 pb-24 sm:pb-40 px-4 text-center overflow-hidden">
         <motion.div
           style={{ y: heroParallax }}
@@ -66,7 +66,7 @@ export default function DesignProjectPage() {
         </motion.p>
       </section>
 
-      {/* ================= PROCESS ================= */}
+      {/*  PROCESS  */}
       <section className="py-20 sm:py-32 px-4 w-full bg-gradient-to-b from-[#FAF9F7] to-[#EEEDE9]">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-center font-semibold text-gray-900 mb-16">
           {t(lang, "design_process_title")}
@@ -122,7 +122,7 @@ export default function DesignProjectPage() {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
+      {/*  CTA  */}
       <section className="text-center py-20 sm:py-32 px-4 bg-[#e3d6c9]">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-semibold text-gray-900">
           {t(lang, "design_cta_title")}
@@ -146,7 +146,7 @@ export default function DesignProjectPage() {
   );
 }
 
-/* ================= STORY BLOCK ================= */
+/*  STORY BLOCK  */
 
 function StoryBlock({
   number,
