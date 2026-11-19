@@ -34,7 +34,7 @@ export default function HomeVideoSection() {
   };
 
   return (
-    <section className="w-full bg-gradient-to-b from-[#FAF9F7] to-[#EDE4DD] px-4 py-14 sm:px-6 sm:py-20 lg:py-28">
+    <section className="relative isolate w-full overflow-hidden bg-[radial-gradient(ellipse_at_50%_30%,#62564D_0%,#39332F_48%,#211E1C_100%)] px-4 py-14 sm:px-6 sm:py-20 lg:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-6 md:grid-cols-2 md:gap-10">
         {videos.map((item, index) => (
           <motion.div
