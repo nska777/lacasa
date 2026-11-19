@@ -2,6 +2,7 @@
 
 import Header from "@/components/Header";
 import Section from "@/components/Section";
+import HomeVideoSection from "@/components/HomeVideoSection";
 import FullpageSlider from "@/components/FullpageSlider";
 import GastroSection from "@/components/GastroSection";
 import SpaBlock from "@/components/SpaBlock";
@@ -115,6 +116,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <HomeVideoSection />
       <Section />
       <FullpageSlider />
       <GastroSection />
